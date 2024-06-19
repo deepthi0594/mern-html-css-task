@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK-4</title>
+    <style>
+        div{
+            border:2px solid black;
+            width:310px;
+            padding:8px 0 8px 6px; 
+        }
+        ul{
+            list-style-type: none;
+            padding:0;
+            margin:0;
+            overflow: hidden;
+            background-color: lightgray;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            padding:13px;
+            color:blue;
+            border-right: 2px solid black;
+            text-decoration: none;
+        }
+        .active{
+            background-color: darkgray;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="margin-left: 60px;">Horizontal Navigation Bar</h3>
+    <div>
+        <ul>
+            <li><a class="active" href=#>Home</a></li>
+            <li><a href=#>Java</a></li>
+            <li><a href=#>HTML</a></li>
+            <li><a href=#>CSS</a></li>
+        </ul>
+    </div>
+</body>
+</html>
